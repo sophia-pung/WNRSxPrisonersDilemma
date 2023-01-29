@@ -1,0 +1,45 @@
+h1 {
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 16px 0;
+    text-align: center;
+}
+h3 {
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*This will make the main container at least as tall as the viewport*/
+  }
+  
+  .Header {
+    background-color: lightgray;
+    position: fixed;
+    width: 100%;
+    z-index: 1
+  }
+  
+  .NavBar {
+    position: fixed; /*This will keep the navbar in a fixed position*/
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .Body {
+    margin-bottom: 50px;
+    flex: 1; /*This will make the body container take up all remaining space in the main container*/
+    overflow-y: scroll; /*This will make the body container scrollable*/
+    padding-top: 120px; /*This will add space between the header and the body*/
+    padding-bottom: 50px; /*This will add space between the body and the navbar*/
+  }
