@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import Rules from "./components/rules.js";
 import NavBar from "./components/navbar.js";
+import Graphs from "./components/graphs";
 
 function App() {
   let [navBarStatus, setNavBarStatus] = useState("home");
@@ -18,8 +19,8 @@ function App() {
       </div>
       <div className="Body">
         {navBarStatus === "home" && <Rules />}
-        {navBarStatus === "search" && <h1>Play</h1>}
-        {navBarStatus === "settings" && <h1>Leaderboard</h1>}
+        {navBarStatus === "search" && <Graphs />}
+        {navBarStatus === "settings" && <Graphs />}
       </div>
       <div className="NavBar">
         <NavBar handleNavBarClick={handleNavBarClick} />
