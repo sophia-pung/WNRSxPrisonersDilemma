@@ -1,0 +1,202 @@
+.gameTracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    }
+    
+    /* Style for the question generator container */
+    .questionGenerator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    
+    /* Style for the button to generate a random question */
+    .questionGenerator button {
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+    
+    /* Style for the current question text */
+    .questionGenerator p {
+    margin: 0;
+    text-align: center;
+    }    
+  
+  /* Style for the response tracker container */
+  .responseTracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Style for the container for your response */
+  .youResponse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Style for the label "You" */
+  .youResponse p {
+    margin: 0;
+  }
+  
+  /* Style for the "Lie" button */
+.youResponse .lie {
+    background-color: #F8C1C1;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+
+/* Style for the "Truth" button */
+.youResponse .truth {
+    background-color: #C1E1C1;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+    
+    /* Style for the "Truth" button when selected */
+    .youResponse .truthSelected {
+    background-color: green;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+    
+    /* Style for the "Lie" button when selected */
+    .youResponse .lieSelected {
+    background-color: #CD3333;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+    
+   /* Style for the container for your response */
+   .partnerResponse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Style for the label "You" */
+  .partnerResponse p {
+    margin: 0;
+  }
+  
+  /* Style for the "Lie" button */
+.partnerResponse .lie {
+    background-color: #F8C1C1;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+
+/* Style for the "Truth" button */
+.partnerResponse .truth {
+    background-color: #C1E1C1;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+    
+    /* Style for the "Truth" button when selected */
+    .partnerResponse .truthSelected {
+    background-color: green;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }
+    
+    /* Style for the "Lie" button when selected */
+    .partnerResponse .lieSelected {
+    background-color: #CD3333;
+    border: 1px solid lightgray;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    }

@@ -24,6 +24,9 @@ function Rules() {
           tells the truth, they will exchange a certain number of red or blue
           marbles (see Section II), prisoner's dilemma style.
         </li>
+        <li>
+          The player with more marbles generates the question at the start of the turn, if you are tied, play rock-paper-scissors, and the winner generates the question.
+        </li>
       </ul>
 
       <h2>End Objective:</h2>
