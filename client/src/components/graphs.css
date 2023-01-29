@@ -1,0 +1,10 @@
+.GraphsMain {
+    width: 100%; /* Fit to view width of device /
+    display: flex;
+    flex-direction: column; / Stack images vertically /
+    align-items: center; / Center images horizontally */
+    }
+    
+img {
+    max-width: 100%; /* Fit image within view width of device */
+}
